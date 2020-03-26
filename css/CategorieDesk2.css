@@ -1,0 +1,229 @@
+*{
+	padding: 0%;
+	margin: 0%;
+  overflow-x:hidden; 
+}
+
+/* ------------ INIZIO BREADCRUMB ------------ */
+
+ul.breadcrumb {
+  padding: 10px 20px;
+  list-style: none;
+  background-color: none;
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1em;
+  color: rgb(52,51,49);
+}
+ul.breadcrumb li+li:before {
+  padding: 0.5%;
+  color: rgb(52,51,49);
+  content: "/\00a0"; /* divisore breadcrumb, carattere speciale */
+}
+ul.breadcrumb li a {
+  color: rgb(90,19,35);
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: rgb(139,168,164);
+  text-decoration: underline;
+}
+
+/* ------------ FINE BREADCRUMB ------------ */
+
+/* ------------ INIZIO RETTANGOLO IMMAGINE ------------ */
+
+.rettangolo{ /* --- rettangolo immagine di presentazione --- */
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  overflow-y: hidden;
+}
+
+#chef{
+  width:100%;
+  height:11em;
+  display:block;
+  background-image: url("../img/chef.jpg");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.textintro{ /* --- testo fascia bianca con padding bianco --- */
+  position: absolute;
+  font-size: 1.3em;
+  font-family: "Source Serif Pro", Arial, serif;
+  font-weight: 400;
+  background-color:white;
+  padding-left:2%;
+  padding-right:2%;
+  top:70%;
+  right:0%;
+  text-align: right;
+  color: rgb(52,51,49); 
+  z-index: 3;
+}
+
+/* ------------ FINE RETTANGOLO IMMAGINE ------------ */
+
+/* ------------ INIZIO GRIGLIA PRODOTTI ------------ */
+
+.container{
+  position:relative;
+  display: table;
+  width: 100%; /*la larghezza del container prende tutta la pagina*/
+  height:auto;
+  margin-top:2%; /*mi sposto dal top, ossia dal bordo della pagina, del 2%*/
+}
+
+.row{
+  /*position: relative; /* proprieta' non ereditaria */
+  width: 80%; /*la larghezza della riga e' del 100%*/
+  /*height: auto;*/
+  margin-left:10%;
+}
+
+/*.row2{
+  /*position: relative; /* e' relative rispetto il container, non row 
+  margin-top: 2%;
+  margin-left:25%;
+  width: 100%;
+}*/
+
+.prduct{
+  float:left;
+  cursor: pointer;
+  width:100%;
+  height: 9.7em;
+  overflow-y: hidden;
+}
+
+#aaa{ /*margine destro terzo elemento prima riga*/
+  float:right;
+  margin-right:0; 
+}
+
+#primi{
+  display:block;
+  width:100%;
+  height:9.7em;
+  background-image: url("../img/Primi.jpg");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+#secondi{
+  display:block;
+  width:100%;
+  height:9.7em;
+  background-image: url("../img/Secondi.jpg");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+#contorni{
+  display:block;
+  width:100%; /*gli do la larghezza al 100% perche' editato la foto cosi*/
+  height:9.7em;
+  background-image: url("../img/Contorni3.jpg");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+#pizzatab{
+  margin-left:16%;
+  margin-top:2%;
+}
+
+#dessertop{
+  margin-top:2%;
+}
+
+#pizza{
+  display:block;
+  width:100%;
+  height:9.7em;
+  background-image: url("../img/Pizza.jpg");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+#dessert{
+  display:block;
+  width:100%;
+  height:9.7em;
+  background-image: url("../img/dessert.jpg");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.h3{
+  float:left;
+  line-height: 2em;
+  text-align: center;
+  width:32%;
+  margin-right:2%;  
+  /*font-size: 1.3em;
+  font-family: "source serif pro";
+  font-weight: 400;
+  /*line-height: 2em; /*spazio tra h3 ed immagine
+  cursor:pointer;*/
+}
+
+.a{
+  font-family: "Source Serif Pro", Arial, serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  color:rgb(52,51,49);
+  text-decoration: none;
+ }
+
+.a:hover{
+  text-decoration:underline;
+}
+
+/* ------------ FINE GRIGLIA PRODOTTI ------------ */
+
+.line{ /* "Scopri di piu' " */
+  text-align: center;
+  margin-top: 22.5%;
+}
+
+.sdp{ /* link "scopri di piu'" */
+  color:white;
+}
+
+.line .a:hover{
+  color:rgb(200,197,188);
+}
+
+.overlay { 
+  position: relative;
+  width: 92%;
+  height: 11em;
+  background-color: rgb(52,51,49);
+  color: white;
+  bottom:9.7em;
+  margin:auto;
+  z-index: 5;
+  display: none;
+}
+
+.prduct:hover .overlay{
+  /*position: absolute;*/
+  display:block; 
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+} 

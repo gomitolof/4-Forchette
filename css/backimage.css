@@ -1,0 +1,420 @@
+/*
+Inserisco, temporaneamente, tutte le immagini utilizzate per ora. C'e' 
+da assegnare un id alle immagini perche', attualmente, ci sono id che si 
+ripetono.
+*/
+
+/* ------------------- P R I M I ------------------- */
+
+#margherita{
+  background-image: url("../img/risotto1.jpg");
+}
+
+#diavola{
+  background-image: url("../img/risotto2.jpg");
+}
+
+#patate{
+  background-image: url("../img/lobster.jpg");
+}
+
+#capricciosa{
+  background-image: url("../img/trofie.jpg");
+}
+
+#ortolana{
+  background-image: url("../img/bolognesi.jpg");
+}
+
+#calzoncino{
+  background-image: url("../img/pomodoro.jpg");
+}
+
+#almetro{
+  background-image: url("../img/gnocchiragu.jpg");
+}
+
+#rosmarino{
+  background-image: url("../img/gnocchizucca.jpg");
+}
+
+#fantasia{
+  background-image: url("../img/malloredduscampidanese.jpg");
+}
+
+#ggourmet{
+  background-image: url("../img/orecchiette.jpg");
+}
+
+#gclassic{
+  background-image: url("../img/raviolicarne.jpg");
+}
+
+#tartufino{
+  background-image: url("../img/raviolipesce.jpg");
+}
+
+/* ------------------- S E C O N D I ------------------- */
+
+#margherita{
+  background-image: url("../img/hamasticeturf.jpg");
+}
+
+#diavola{
+  background-image: url("../img/theclassic.jpg");
+}
+
+#patate{
+  background-image: url("../img/polpogourmet.jpg");
+}
+
+#capricciosa{
+  background-image: url("../img/polpo.jpg");
+}
+
+#ortolana{
+  background-image: url("../img/ribsmaialeglass.jpg");
+}
+
+#calzoncino{
+  background-image: url("../img/Tempura.jpg");
+}
+
+#almetro{
+  background-image: url("../Pizza/metro.jpg");
+}
+
+#rosmarino{
+  background-image: url("../Pizza/rosmarino.jpg");
+}
+
+#fantasia{
+  background-image: url("../Pizza/bfantasia.jpg");
+}
+
+#ggourmet{
+  background-image: url("../Pizza/gourmet.jpg");
+}
+
+#gclassic{
+  background-image: url("../Pizza/gourmetclass.jpg");
+}
+
+#tartufino{
+  background-image: url("../Pizza/tartufino.jpg");
+}
+
+/* ------------------- C O N T O R N I ------------------- */
+
+#margherita{
+  background-image: url("../img/Caprese.jpg");
+}
+
+#diavola{
+  background-image: url("../img/FunghiPorciniProvolaAff.jpg");
+}
+
+#patate{
+  background-image: url("../img/Insalataarancemelograno.jpg");
+}
+
+#capricciosa{
+  background-image: url("../img/NididiPatate.jpg");
+}
+
+#ortolana{
+  background-image: url("../img/PatateNocciolate.jpg");
+}
+
+#calzoncino{
+  background-image: url("../img/VerdurealVapore.jpg");
+}
+
+#almetro{
+  background-image: url("../img/Contorni3.jpg");
+}
+
+#rosmarino{
+  background-image: url("../img/GreekSalad.jpg");
+}
+
+#fantasia{
+  background-image: url("../Pizza/bfantasia.jpg");
+}
+
+#ggourmet{
+  background-image: url("../Pizza/gourmet.jpg");
+}
+
+#gclassic{
+  background-image: url("../Pizza/gourmetclass.jpg");
+}
+
+#tartufino{
+  background-image: url("../Pizza/tartufino.jpg");
+}
+
+/* ------------------- P I Z Z A ------------------- */
+
+.ProdPic{
+  /*display:block;*/
+  width:100%;
+  height:9.7em;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -ms-background-size:cover;
+  -o-background-size:cover;
+
+}
+
+#margherita{
+  background-image: url("../img/margherita.jpg");
+}
+
+#diavola{
+  background-image: url("../img/diavola.jpg");
+}
+
+#patate{
+  background-image: url("../img/metro.jpg");
+}
+
+#capricciosa{
+  background-image: url("../img/capricciosa.jpg");
+}
+
+#ortolana{
+  background-image: url("../img/ortolana.jpg");
+}
+
+#calzoncino{
+  background-image: url("../img/calzone.jpg");
+}
+
+#almetro{
+  background-image: url("../img/metro.jpg");
+}
+
+#rosmarino{
+  background-image: url("../img/rosmarino.jpg");
+}
+
+#fantasia{
+  background-image: url("../img/bfantasia.jpg");
+}
+
+#ggourmet{
+  background-image: url("../img/gourmet.jpg");
+}
+
+#gclassic{
+  background-image: url("../img/gourmetclass.jpg");
+}
+
+#tartufino{
+  background-image: url("../img/tartufino.jpg");
+}
+
+/* ------------------- D E S S E R T ------------------- */
+
+#prod1{
+  background-image: url("../img/macedonia.jpg");
+}
+
+#prod2{
+  background-image: url("../img/gelatociocc.jpg");
+}
+
+#prod3{
+  background-image: url("../img/gelatofragola.jpg");
+}
+
+#prod4{
+  background-image: url("../img/gelatomisto.jpg");
+}
+
+#prod5{
+  background-image: url("../img/millefoglie.jpg");
+}
+
+#prod6{
+  background-image: url("../img/mousseciocc.jpg");
+}
+
+#prod7{
+  background-image: url("../img/tiramisu.jpg");
+}
+
+#prod8{
+  background-image: url("../img/millefoglie.jpg");
+}
+
+#prod9{
+  background-image: url("../img/bfantasia.jpg");
+}
+
+#prod10{
+  background-image: url("../img/gourmet.jpg");
+}
+
+#prod11{
+  background-image: url("../img/gourmetclass.jpg");
+}
+
+#prod12{
+  background-image: url("../img/tartufino.jpg");
+}
+
+/* ------------------- S U C C H I ------------------- */
+
+#prod1{
+  background-image: url("../img/anguriasmoothie.jpg");
+}
+
+#prod2{
+  background-image: url("../img/applejuice.jpg");
+}
+
+#prod3{
+  background-image: url("../img/arancia.jpg");
+}
+
+#prod4{
+  background-image: url("../img/aranciacarota.jpg");
+}
+
+#prod5{
+  background-image: url("../img/bananasmoothie.jpg");
+}
+
+#prod6{
+  background-image: url("../img/perarosmarino.jpg");
+}
+
+#prod7{
+  background-image: url("../img/pitahayasmootie.jpg");
+}
+
+#prod8{
+  background-image: url("../img/smoothiemix.jpg");
+}
+
+#prod9{
+  background-image: url("../img/nodinipuglia.jpg");
+}
+
+#prod10{
+  background-image: url("../img/tomino.jpg");
+}
+
+#prod11{
+  background-image: url("../Pizza/gourmetclass.jpg");
+}
+
+#prod12{
+  background-image: url("../Pizza/tartufino.jpg");
+}
+
+/* ------------------- L A T T I C I N I ------------------- */
+
+#prod1{
+  background-image: url("../img/burrata.jpg");
+}
+
+#prod2{
+  background-image: url("../img/latte.jpg");
+}
+
+#prod3{
+  background-image: url("../img/lattemandorla.jpg");
+}
+
+#prod4{
+  background-image: url("../img/latteriso.jpg");
+}
+
+#prod5{
+  background-image: url("../img/lattesoia.jpg");
+}
+
+#prod6{
+  background-image: url("../img/mbufala.jpg");
+}
+
+#prod7{
+  background-image: url("../img/mozzarella.jpg");
+}
+
+#prod8{
+  background-image: url("../img/mspiedini.jpg");
+}
+
+#prod9{
+  background-image: url("../img/nodinipuglia.jpg");
+}
+
+#prod10{
+  background-image: url("../img/tomino.jpg");
+}
+
+#prod11{
+  background-image: url("../Pizza/gourmetclass.jpg");
+}
+
+#prod12{
+  background-image: url("../Pizza/tartufino.jpg");
+}
+
+/* ------------------- F O R N A I O ------------------- */
+
+#prod1{
+  background-image: url("../img/cookies.jpg");
+}
+
+#prod2{
+  background-image: url("../img/biscmieleavena.jpg");
+}
+
+#prod3{
+  background-image: url("../img/chocoplum.jpg");
+}
+
+#prod4{
+  background-image: url("../img/Rollini.jpg");
+}
+
+#prod5{
+  background-image: url("../img/VanillaHoneyCup.jpg");
+}
+
+#prod6{
+  background-image: url("../img/altamura.jpg");
+}
+
+#prod7{
+  background-image: url("../img/fgenovese.jpg");
+}
+
+#prod8{
+  background-image: url("../img/tpugliesi.jpg");
+}
+
+#prod9{
+  background-image: url("../img/tnapoletani.jpg");
+}
+
+#prod10{
+  background-image: url("../img/gourmet.jpg");
+}
+
+#prod11{
+  background-image: url("Pizza/gourmetclass.jpg");
+}
+
+#prod12{
+  background-image: url("../img/tartufino.jpg");
+}
+

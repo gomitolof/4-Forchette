@@ -1,0 +1,245 @@
+/* ------------ INIZIO BREADCRUMB ------------ */
+
+ul.Breadcrumb {
+  padding: 10px 20px;
+  list-style: none;
+  background-color: none;
+}
+
+ul.Breadcrumb li {
+  display: inline;
+  font-size: 16px;
+  color: rgb(52,51,49);
+}
+ul.Breadcrumb li+li:before {
+  padding: 2px;
+  color: rgb(52,51,49);
+  content: "/\00a0"; /* divisore breadcrumb, carattere speciale */
+}
+ul.Breadcrumb li a {
+  color: rgb(90,19,35); 
+  text-decoration: none;
+}
+ul.Breadcrumb li a:hover {
+  color: rgb(139,168,164);
+  text-decoration: underline;
+}
+
+/* ------------ FINE BREADCRUMB ------------ */
+
+/* ------------ INIZIO RETTANGOLO IMMAGINE ------------ */
+
+.Rettangolo{ /* --- rettangolo immagine di presentazione --- */
+	position: relative;
+	margin: 1% auto;
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+}
+
+#intro{
+	display:block;
+ 	width:100%;
+ 	height:10em;
+  background-image: url("../img/latterett.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+#textintro{ /* --- testo fascia bianca --- */
+	float:right;/*situazione anomala*/
+	width:60%;
+	font-size: 2em;
+	font-family: "source serif pro", serif;
+	background-color: white;
+	text-align: right;
+	margin-top:10%;
+	margin-right: 0%;
+	padding: 0% 2% 0% 2%;
+	color: rgb(52,51,49); 
+	z-index: 3;
+	
+}
+
+/* ------------ FINE RETTANGOLO IMMAGINE ------------ */
+
+/* ------------ INIZIO GRIGLIA PRODOTTI ------------ */
+
+
+.H{
+  width:20%;
+  height: 15em;
+  display: inline-block;
+  margin-left:2.7%;
+  /*background-color: rgb(200,197,188);
+  border-radius:15px; */
+}
+
+.Row{
+	margin-left:7.5%;
+  margin-top:3%;
+	width: 90%;
+	/*clear:both;*/
+  margin:bottom:6%;
+  height: 13em;
+  overflow: hidden;
+}
+
+.Prduct{
+	float: left;
+	height: auto;
+	width: 100%;
+	/*margin-left:2.7%;*/
+	overflow: hidden;
+  position: relative;
+}
+
+.Tit{ /* --- TITOLO PRODOTTI --- */
+  float:left;
+	font-size: 1.2em;
+  font-weight: 0.5;
+	font-family: "source serif pro", serif;
+	color: rgb(52,51,49);
+	text-align: center;
+	margin-top:4%;
+  width:90%;
+  margin-left:6%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Tit:hover{
+  color:rgb(52,51,49);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.P{ /* --- BREVE DESCRIZIONE PRODOTTI --- */
+  /*float:left;
+	margin-top: 0.25em; <!-------spazio tra titolo e paragrafo------->
+	font-size: 1em;
+	font-family: roboto, "sans serif";
+	color: rgb(52,51,49);
+	text-align: center;
+	margin-bottom:4%;
+  width:100%;
+  height:2em;*/
+  display:none;
+}
+
+#price{
+	float:right;
+  /*width: 39%;*/
+	z-index: 5;
+	background-color:white;
+	color: rgb(52,51,49);
+	font-size: 1.5em;
+	font-family: "source serif pro", serif; 
+  margin-top:0%;
+  /*padding-right:5%;
+  padding-left:2%;*/
+  padding: 0.1em;
+  text-align: right;
+}
+
+/* ---------------------- P R O D O T T I ------------------------- */
+
+.ProdPic{
+  width:100%;
+  height:9.7em;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -ms-background-size:cover;
+  -o-background-size:cover;
+}
+
+#prod1{
+  background-image: url("../img/burrata.jpg");
+}
+
+#prod2{
+  background-image: url("../img/latte.jpg");
+}
+
+#prod3{
+  background-image: url("../img/lattemandorla.jpg");
+}
+
+#prod4{
+  background-image: url("../img/latteriso.jpg");
+}
+
+#prod5{
+  background-image: url("../img/lattesoia.jpg");
+}
+
+#prod6{
+  background-image: url("../img/mbufala.jpg");
+}
+
+#prod7{
+  background-image: url("../img/mozzarella.jpg");
+}
+
+#prod8{
+  background-image: url("../img/mspiedini.jpg");
+}
+
+#prod9{
+  background-image: url("../img/nodinipuglia.jpg");
+}
+
+#prod10{
+  background-image: url("../img/tomino.jpg");
+}
+
+#prod11{
+  background-image: url("../Pizza/gourmetclass.jpg");
+}
+
+#prod12{
+  background-image: url("../Pizza/tartufino.jpg");
+}
+
+.H3:hover{
+  text-decoration: underline;
+  color:rgb(52,51,49);
+  cursor: pointer;
+}
+
+/* ------------------- F I N E  P R O D O T T I ------------------- */
+
+.Sdp{ /* link "scopri di piu'" */
+  font-family: "source serif pro";
+  color:white;
+  line-height: 9.8em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+.Overlay {
+	position: absolute;
+	width: 100%;
+	height: 9.8em;
+	background-color: rgb(52,51,49);
+	color: white;
+	z-index: 6;
+	display: none;
+  top: 0;
+  left: 0;
+	/*margin-top:-67.5%;*/
+}
+
+.Prduct:hover .Overlay{
+	display:block !important; 
+}
+
+
+
+/* ------------ FINE GRIGLIA PRODOTTI ------------ */
